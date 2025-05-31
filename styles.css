@@ -6,12 +6,12 @@
 1. Variables
 ------------------------------------*/
 :root {
-  --bg-dark: #001e3c;
-  --bg-light: #003a6b;
-  --accent-mid: #3399ff;
-  --accent-light: #66d9ff;
-  --white: #e0f7ff;
-  --input-bg: rgba(224,247,255,0.2);
+  --bg-dark: #3c0000;
+  --bg-light: #421515;
+  --accent-mid: #ff3300;
+  --accent-light: #ffee00;
+  --white: #ffffff;
+  --input-bg: rgba(255, 224, 224, 0.2);
 
   --gutter: 1rem;
   --radius: 1rem;
@@ -24,7 +24,7 @@
   
   /*lo nuevo de escribi tu nombre*/
     --gutter: 1rem;
-  --primary-color: #4f46e5;
+  --primary-color: #c8e546;
   --accent-color: #facc15;
   --glow-color: rgba(250, 204, 21, 0.75);
 
@@ -87,7 +87,7 @@ body {
 ------------------------------------*/
 .card {
   width: 100%;
-  background: linear-gradient(180deg, rgba(0,30,60,0.9), rgba(0,58,107,0.8));
+  background: linear-gradient(180deg, rgba(206, 64, 2, 0.9), rgba(0, 0, 0, 0.8));
   backdrop-filter: blur(8px);
   border-radius: var(--radius);
   padding: 1.5rem;
@@ -288,7 +288,7 @@ input[type="text"]:-ms-input-placeholder      { animation: placeholderBlink 1s e
 .skeleton {
   position: absolute;
   inset: 0;
-  background: rgba(224,247,255,0.1);
+  background: rgba(248, 219, 1, 0.1);
   animation: pulse 1.5s ease-in-out infinite;
 }
 @keyframes pulse {
@@ -326,7 +326,7 @@ input[type="text"]:-ms-input-placeholder      { animation: placeholderBlink 1s e
 ------------------------------------*/
 .testimonials-section {
   width: 100%;
-  background: rgba(0,36,72,0.85);
+  rgba(206, 64, 2, 0.9)
   border-radius: var(--radius);
   padding: 1.5rem;
   margin-top: var(--gutter);
@@ -354,7 +354,7 @@ input[type="text"]:-ms-input-placeholder      { animation: placeholderBlink 1s e
   left: 0;
   opacity: 0;
   transform: translateY(20px);
-  background: rgba(224,247,255,0.05);
+  background: rgba(206, 64, 2, 0.9)
   padding: 0.75rem 1rem;
   border-radius: calc(var(--radius)/2);
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
@@ -405,4 +405,3 @@ input[type="text"]:-ms-input-placeholder      { animation: placeholderBlink 1s e
   display: block;
   margin: 0 auto;
 }
-
