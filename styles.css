@@ -6,8 +6,8 @@
 1. Variables
 ------------------------------------*/
 :root {
-  --bg-light: #900303;  
-  --bg-dark: #421515;
+  --bg-dark: #900303;  
+  --bg-light: #421515;
   --accent-mid: #ff3300;
   --accent-light: #ffee00;
   --white: #ffffff;
@@ -361,7 +361,7 @@ input[type="text"]:-ms-input-placeholder      { animation: placeholderBlink 1s e
   left: 0;
   opacity: 0;
   transform: translateY(20px);
-  background: linear-gradient(180deg, rgba(206, 64, 2, 0.9), rgba(64, 21, 3, 0.9));
+  background: linear-gradient(180deg, rgba(64, 21, 3, 0.9), rgba(132, 41, 2, 0.9));
   padding: 0.75rem 1rem;
   border-radius: calc(var(--radius)/2);
   box-shadow: 0 4px 12px rgba(0,0,0,0.5);
